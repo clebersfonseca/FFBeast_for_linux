@@ -1,0 +1,35 @@
+{
+    "name": "Euro Truck Simulator 2 / ATS",
+    "description": "Large 1080 deg angle with integrated centering spring and realistic heavy steering dampening",
+    "effects": {
+        "motion_range": 1080,
+        "total_effect_strength": 80,
+        "integrated_spring_strength": 25,
+        "soft_stop_strength": 90,
+        "soft_stop_range": 20,
+        "soft_stop_dampening_strength": 60,
+        "static_dampening_strength": 35,
+        "dynamic_dampening_strength": 0,
+        "directx_constant_strength": 80,
+        "directx_spring_strength": 50,
+        "directx_periodic_strength": 50,
+        "directx_constant_direction": 1
+    },
+    "hardware": {
+        "encoder_cpr": 4000,
+        "integral_gain": 45,
+        "proportional_gain": 25,
+        "force_enabled": true,
+        "debug_torque": false,
+        "amplifier_gain": 0,
+        "calibration_magnitude": 10,
+        "calibration_speed": 10,
+        "power_limit": 45,
+        "braking_limit": 15,
+        "position_smoothing": 0,
+        "speed_buffer_size": 3,
+        "encoder_direction": 1,
+        "force_direction": 1,
+        "pole_pairs": 15
+    }
+}

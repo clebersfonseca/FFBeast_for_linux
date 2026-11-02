@@ -1,0 +1,35 @@
+{
+    "name": "Assetto Corsa / ACC",
+    "description": "High detail constant and periodic effects with 900 deg rotation for GT3/Formula",
+    "effects": {
+        "motion_range": 900,
+        "total_effect_strength": 100,
+        "integrated_spring_strength": 0,
+        "soft_stop_strength": 90,
+        "soft_stop_range": 10,
+        "soft_stop_dampening_strength": 60,
+        "static_dampening_strength": 15,
+        "dynamic_dampening_strength": 0,
+        "directx_constant_strength": 100,
+        "directx_spring_strength": 0,
+        "directx_periodic_strength": 80,
+        "directx_constant_direction": 1
+    },
+    "hardware": {
+        "encoder_cpr": 4000,
+        "integral_gain": 55,
+        "proportional_gain": 35,
+        "force_enabled": true,
+        "debug_torque": false,
+        "amplifier_gain": 0,
+        "calibration_magnitude": 10,
+        "calibration_speed": 10,
+        "power_limit": 65,
+        "braking_limit": 25,
+        "position_smoothing": 0,
+        "speed_buffer_size": 2,
+        "encoder_direction": 1,
+        "force_direction": 1,
+        "pole_pairs": 15
+    }
+}

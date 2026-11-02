@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=FFBeast Control Center
+GenericName=Force Feedback Steering Wheel Manager
+Comment=Configurador e Gerenciador para Volante Force Feedback FFBeast
+Exec=/home/cleber/Projetos/FFBeast_Linux/ffbeast_gui.py
+Icon=/home/cleber/Projetos/FFBeast_Linux/assets/ffbeast_hardware_icon.png
+Terminal=false
+Type=Application
+Categories=Game;Settings;HardwareSettings;Qt;
+Keywords=wheel;ffb;forcefeedback;steering;simracing;odrive;ffbeast;racing;
+StartupNotify=true
+StartupWMClass=ffbeast_gui.py
